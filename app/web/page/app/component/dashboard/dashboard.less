@@ -1,0 +1,120 @@
+.dashboard-con {
+  width: 100%;
+  &-idcard {
+    width: 100%;
+    &-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &-avator {
+        background: #619fe7;
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        img {
+          width: 72px;
+          height: 72px;
+        }
+      }
+      &-hello {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+        color: rgba(0,0,0,.85);
+        padding: 10px 15px;
+      }
+    }
+  }
+  &-dynamic {
+    width: 100%;
+    margin-top: 16px;
+  }
+  &-barchart {
+    width: 100%;
+    margin-top: 16px;
+    &-content {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  &-mapchart {
+    width: 100%;
+    margin-top: 16px;
+    &-content {
+      width: 100%;
+      height: 600px;
+    }
+  }
+  &-fastmenu {
+    span {
+      cursor: pointer;
+    }
+    span:hover {
+      color: #00C1DE;
+    }
+    &-content {
+      &-items {
+        color: rgba(0,0,0,.65);
+        width: 23%;
+        display: inline-block;
+        height: 24px;
+        line-height: 24px;
+        padding: 0 8px;
+        border: 1px solid #e9eaec;
+        border-radius: 3px;
+        background: #f7f7f7;
+        font-size: 12px;
+        margin: 2px 4px 2px 0;
+        vertical-align: middle;
+        opacity: 1;
+        overflow: hidden;
+        cursor: pointer;
+        span {
+          white-space: nowrap;
+          text-overflow:ellipsis;
+          overflow: hidden;
+          width: 100%;
+          display: inline-block;
+        }
+        span:hover {
+          color: #00C1DE;
+        }
+        i {
+          vertical-align: middle;
+          float: right;
+        }
+        i:hover {
+          color: red;
+        }
+      }
+      &-btn {
+        display: inline-block;
+        margin: 2px 4px 2px 0;
+        padding: 0;
+        width: 23%;
+        button {
+          border:1px solid #00C1DE;
+          color: #00C1DE;
+          width: 100%;
+          margin-left: -3px;
+        }
+      }
+    }
+  }
+  &-linechart {
+    width: 100%;
+    margin-top: 16px;
+    &-content {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  &-piechart {
+    width: 100%;
+    margin-top: 16px;
+    &-content {
+      width: 100%;
+      height: 300px;
+    }
+  }
+}

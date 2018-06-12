@@ -1,0 +1,40 @@
+.poptip {
+  border: 1px solid #f3d995;
+  height: 30px;
+  line-height: 16px;
+  padding: 5px 10px 5px 10px;
+  background: #fefcee;
+  position: relative;
+}
+.poptip .poptip-arrow {
+  top: 9px;
+  right: 0;
+  position: absolute;
+  z-index: 100;
+}
+.poptip-arrow em, .poptip-arrow span {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: rgba(255,255,255,0);
+  border-color: transparent \0;
+  border-style: solid;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.poptip-arrow em {
+  top: 0;
+  left: 1px;
+  border-left-color: #f3d995;
+  border-width: 6px 0 6px 6px;
+}
+.poptip-arrow span {
+  border-left-color: #fefcee;
+  border-width: 6px 0 6px 6px;
+}
+.poptip .poptip-content {
+  color: #df9c1f;
+  font-size: 12px;
+  font-weight: 400;
+}
